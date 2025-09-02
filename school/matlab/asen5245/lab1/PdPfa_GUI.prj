@@ -1,0 +1,92 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="420182526" file="C:\Users\mr22\Documents\MATLAB\PdPfa_GUI.prj" location="C:\Users\mr22\Documents\MATLAB" name="PdPfa_GUI" target="target.mlapps" target-name="Package App">
+    <param.appname>PdPfa_GUI</param.appname>
+    <param.authnamewatermark>Mark A. Richards</param.authnamewatermark>
+    <param.email>mrichards@gatech.edu</param.email>
+    <param.company>Georgia Institute of Technology</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Demonstrates square-law detection of nonfluctuating (constant) targets in complex white Gaussian noise.</param.summary>
+    <param.description>This app demonstrates square-law detection of nonfluctuating (constant) targets in complex white Gaussian noise. The interactions and influence of noise power, threshold multplier, false alarm probability, and signal-to-noise ratio on detection probability are illustrated.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Signal Processing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>8</item>
+    </param.products.id>
+    <param.products.version>
+      <item>8.3</item>
+      <item>6.21</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\PdPfa_GUI.mlappinstall</param.output>
+    <param.guid>b472b25b-ad4c-4daa-bb1a-f2040998c7e2</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.screenshot />
+      <param.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\PdPfa_GUI.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\PdPfa_GUI.fig</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\mr22\Documents\MATLAB" name="PdPfa_GUI.mlappinstall" optional="false">C:\Users\mr22\Documents\MATLAB\PdPfa_GUI.mlappinstall</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2014a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

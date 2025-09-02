@@ -1,0 +1,17 @@
+DESCRIPTION OF DATA IN FILE file.mat AND file_mys.mat
+Range resolution = 10 meters
+Cross-range resolution = 10 meters
+Range to central reference point = 30 km
+Aperture time = 0.3 seconds
+Range curvature at CRP = 0.0084375 meters
+
+Pulse length = 5 microsecondsChirp bandwidth = 15 MhzTime-bandwidth product = 75
+We are simulating 1350 pulses at an RF of 10 GHz     and a PRF of 4.5 kHz, giving a PRI of 222.222 usec.
+Range resolution = 10 meters
+Cross-range resolution = 10 meters
+Range to central reference point = 30 km
+Swath length = 3000 m
+Range curvature at CRP = 0.0084375 meters
+
+The range window limits are 190 to 215 usec.The range window starts at 28.5 km.The range window ends at 32.25 km.
+Aperture time = 0.3 secondsThere are 9 scatterers with the following coordinates:  x= -1000.0 m, R= -1000.0 m  x= -1000.0 m, R=    +0.0 m  x= -1000.0 m, R= +1000.0 m  x=    +0.0 m, R= -1000.0 m  x=    +0.0 m, R=    +0.0 m  x=    +0.0 m, R= +1000.0 m  x= +1000.0 m, R= -1000.0 m  x= +1000.0 m, R=    +0.0 m  x= +1000.0 m, R= +1000.0 m
