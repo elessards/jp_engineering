@@ -2,9 +2,6 @@
 
 ## School
 Code for my Bachelor's and Master's work.
-- ASEN 5090
-- ASEN 5245
-- ASEN 5307
 
 ## Textbook
 Coding I do for my own work with my textbooks.
