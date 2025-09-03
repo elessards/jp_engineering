@@ -39,7 +39,7 @@ code_prn19_ca_cor = func_code_convert(code_prn19_ca);
 sum = code_prn25_ca_cor_delayed + code_prn19_ca_cor_delayed + code_prn05_ca_cor_delayed;
 
 n = -1022/2:1022/2;
-R_k = func_correlate_cross(n,sum,code_prn19_ca_cor);
+R_k = func_correlate_cross(n,code_prn19_ca_cor,sum);
 
 %% PLOT
 

@@ -41,7 +41,7 @@ sum = code_prn25_ca_cor_delayed+code_prn19_ca_cor_delayed+code_prn05_ca_cor_dela
 
 % cross correlate
 n = -1022/2:1022/2;
-R_k_l = func_correlate_cross(n,sum,code_prn19_ca_cor);
+R_k_l = func_correlate_cross(n,code_prn19_ca_cor,sum);
 
 %% PLOT
 

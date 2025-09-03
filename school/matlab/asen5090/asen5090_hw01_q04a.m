@@ -40,8 +40,8 @@ for j = 1:length(n)
 
     for i = 1:chips
 
-        x_k = code_prn19_ca(i);
-        x_k_ipn = code_prn19_ca(mod(i + n(j) - 1, 1023) + 1);
+        x_k = code_prn19_ca_cor(i);
+        x_k_ipn = code_prn19_ca_cor(mod(i + n(j) - 1, 1023) + 1);
         sum_ac = sum_ac + x_k*x_k_ipn;
     
     end
